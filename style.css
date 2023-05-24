@@ -1,0 +1,155 @@
+body {
+    background-color: #131313;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 14px;
+    color: #FFF;
+    margin: 0;
+}
+
+.fade {
+    opacity: 0;
+}
+
+.font-title {
+    font-family: "Yeseva One", serif;
+    color: #E3B873;
+    text-transform: uppercase;
+}
+
+.hero {
+    display: flex;
+    gap: 5%;
+}
+
+.hero__info {
+    position: relative;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero__info-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero__info-content-cell {
+    width: 50%;
+}
+
+.hero__info-content-text {
+    margin: 0;
+    line-height: 164%;
+    padding-bottom: 34px;
+    transition: opacity 0.3s;
+}
+
+.hero__info-content-title {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 9px;
+}
+
+.hero__info-header {
+    padding-bottom: 42px;
+}
+
+.hero__info-header-text {
+    margin: 0;
+    line-height: 190%;
+}
+
+.hero__info-header-title {
+    position: relative;
+    font-size: 27px;
+    font-weight: 400;
+    max-width: 250px;
+    margin: 0;
+    padding-bottom: 34px;
+}
+
+.hero__info-header-title::after {
+    content: "\2014";
+    transform: scale(4, 1);
+    position: absolute;
+    right: 20px;
+}
+
+.hero__info-slider {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero__info-slider-element {
+    display: inline-block;
+    transform: scale(2) translateX(5px);
+    color: #FFF;
+}
+
+.hero__info-slider-link {
+    cursor: pointer;
+}
+
+.hero__info-slider-link:first-child {
+    margin-right: 20px;
+}
+
+.hero__info-slider-link:last-child {
+    margin-left: 20px;
+}
+
+.hero__photo {
+    width: 60%;
+}
+
+.hero__photo-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 482px;
+    transition: opacity 0.3s;
+}
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0 50px;
+}
+
+.main__footer {
+    display: flex;
+    justify-content: end;
+}
+
+.main__footer-slider {
+    width: 60%;
+    min-height: 70px;
+}
+
+.main__ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 5%;
+}
+
+.slider-link {
+    color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    transition: color 0.6s;
+}
+
+.slider-dot-active {
+    color: #FFF;
+    transition: color 0.6s;
+}
+
+.slider-link-active {
+    color: #E3B873;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    transition: color 0.6s;
+}
